@@ -33,7 +33,7 @@ namespace ShyGuyIsPISSED
                 new CodeInstruction(OpCodes.Call, Method(typeof(Player), nameof(Player.Get), new []{typeof(ReferenceHub)})),
                 new CodeInstruction(OpCodes.Callvirt, PropertyGetter(typeof(Player), nameof(Player.CurrentRoom))),
                 new CodeInstruction(OpCodes.Callvirt, PropertyGetter(typeof(Room), nameof(Room.FlickerableLightController))),
-                new CodeInstruction(OpCodes.Ldc_R4, 6f),
+                new CodeInstruction(OpCodes.Ldc_R4, Config.LightFlickerTime),
                 new CodeInstruction(OpCodes.Callvirt, Method(typeof(FlickerableLightController), nameof(FlickerableLightController.ServerFlickerLights), new []{typeof(float)}))
             });
 
