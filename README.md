@@ -9,7 +9,7 @@
 ![Forks](https://img.shields.io/github/forks/Exilon24/ShyGuyIsPISSED?style=social)
 ![Stars](https://img.shields.io/github/stars/Exilon24/ShyGuyIsPISSED?style=social)
 
-Flickers the lights when you piss of shyguy. Just a cool little visual thingymabob.
+Flickers the lights when you piss off shyguy. Just a cool little visual thingymabob.
 
 Uses [Exiled 5.0](https://github.com/Exiled-Team/EXILED).
 
